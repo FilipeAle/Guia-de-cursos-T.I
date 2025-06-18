@@ -288,28 +288,241 @@ scroll-margin-top: 170px ;
 }
 
 
-@media (max-width: 768px) {
-   /* Estilos pra celular aqui */
-   .logo-img{
-    width: 75px;
-    height: 75px;
-   }
-   .menu-lista{
-    display: none;
-   }
-   .conteiner{
-    margin-top: 125px;
-   }
-   .titulo{
-    top: 60px;
-   }
-   .titulo p{
-    font-size: 30px;
-    left: 1%;
-    max-width: 70%;
-   }
-   .intro br{
-    display: none;
-   }
+@media (max-width: 767px) {
+    .logo-img {
+        width: 75px;
+        height: 75px;
+    }
+    .menu-lista {
+        display: none;
+    }
+    .conteiner {
+        margin-top: 125px;
+    }
+    .titulo {
+        top: 60px;
+        left: 5%;
+    }
+    .titulo p {
+        font-size: 30px;
+        max-width: 90%;
+    }
+    .intro {
+        flex-direction: column;
+        gap: 20px;
+        padding: 5%;
+    }
+    .intro h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+    .intro p {
+        font-size: 18px;
+        text-align: justify;
+    }
+    .curso1, .curso2, .curso3 {
+        flex-direction: column;
+        padding: 5%;
+        gap: 20px;
+    }
+    .img-cursoo, .img-cursooo {
+        width: 100%;
+        height: auto;
+    }
+    .curso4e5 {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .quiz h1 {
+        width: auto;
+        height: auto;
+        font-size: 28px;
+    }
+    .quiz button {
+        width: 100%;
+        max-width: 200px;
+    }
+    .uvv-final {
+        width: 100%;
+        height: auto;
+    }
+    nav {
+        padding-right: 10px;
+    }
 }
+@media (min-width: 768px) and (max-width: 1023px) {
+    .logo-img {
+        width: 85px;
+        height: 85px;
+    }
+    .menu-lista {
+        gap: 30px;
+    }
+    .titulo {
+        top: 120px;
+        left: 8%;
+    }
+    .titulo p {
+        font-size: 60px;
+        max-width: 80%;
+    }
+    .intro {
+        flex-direction: column;
+        gap: 30px;
+        padding: 8%;
+    }
+    .intro h1 {
+        font-size: 70px;
+        text-align: center;
+    }
+    .intro p {
+        font-size: 20px;
+        text-align: justify;
+    }
+    .curso1, .curso2, .curso3 {
+        flex-direction: column;
+        padding: 5%;
+        gap: 30px;
+    }
+    .img-cursoo, .img-cursooo {
+        width: 100%;
+        height: auto;
+    }
+    .curso4e5 {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .quiz h1 {
+        width: auto;
+        height: auto;
+        font-size: 32px;
+    }
+    .quiz button {
+        width: 160px;
+        height: 45px;
+    }
+    .uvv-final {
+        width: 100%;
+        height: auto;
+    }
+    nav {
+        padding-right: 50px;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .logo-img {
+        width: 90px;
+        height: 90px;
+    }
+    nav {
+        padding-right: 200px;
+    }
+    .titulo {
+        top: 150px;
+        left: 10%;
+    }
+    .titulo p {
+        font-size: 80px;
+        max-width: 90%;
+    }
+    .intro {
+        gap: 40px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .intro h1 {
+        font-size: 80px;
+    }
+    .intro p {
+        font-size: 22px;
+    }
+    .curso1, .curso2, .curso3 {
+        gap: 40px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .img-cursoo {
+        width: 550px;
+        height: 450px;
+    }
+    .img-cursooo {
+        width: 650px;
+        height: 450px;
+    }
+    .quiz h1 {
+        width: 240px;
+        height: 60px;
+        font-size: 35px;
+    }
+    .quiz button {
+        width: 150px;
+        height: 45px;
+        font-size: 17px;
+    }
+    .final {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .uvv-final {
+        width: 500px;
+        height: 200
+    }
+}
+    @media (min-width: 1441px) {
+    .logo-img {
+        width: 100px;
+        height: 100px;
+    }
+    nav {
+        padding-right: 350px;
+    }
+    .titulo {
+        top: 200px;
+        left: 13%;
+    }
+    .titulo p {
+        font-size: 120px;
+    }
+    .intro {
+        gap: 50px;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .intro h1 {
+        font-size: 100px;
+    }
+    .intro p {
+        font-size: 25px;
+    }
+    .curso1, .curso2, .curso3 {
+        gap: 60px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .img-cursoo {
+        width: 650px;
+        height: 525px;
+    }
+    .img-cursooo {
+        width: 750px;
+        height: 500px;
+    }
+    .quiz h1 {
+        width: 240px;
+        height: 60px;
+        font-size: 35px;
+    }
+    .quiz button {
+        width: 150px;
+        height: 45px;
+        font-size: 17px;
+    }
+    .final {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .uvv-final {
+        width: 545px;
+        height: 220px;
+    } }
 
