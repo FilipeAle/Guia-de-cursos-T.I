@@ -164,8 +164,8 @@ planejados e com alta qualidade.</p>
 </section>
 <section class="final">
     <img src="./img/9 (1).png" alt="" class="uvv-final">
-    <p>Este site foi desenvolvido pelos alunos: Adam Coresma , Feliphe Dal Col Soares, Filipe Alexandre da Cruz e João Arthur. <br>
-Do primeiro periodo noturno de ciencia da computação(CC1N) da Univeridade de Vila Velha(UVV).</p>
+    <p>Este site foi desenvolvido por Filipe Alexandre da Cruz <br>
+Aluno do primeiro periodo noturno de ciencia da computação(CC1N) da Univeridade de Vila Velha(UVV).</p>
 </section>
 
 
@@ -195,8 +195,6 @@ function getBackgroundBehindElement(el) {
     const rect = el.getBoundingClientRect();
     const centerX = rect.left + rect.width / 2;
     const centerY = rect.top + rect.height / 2;
-
-    // Temporariamente esconde o header para detectar o fundo real
     el.style.pointerEvents = 'none';
     const elemBehind = document.elementFromPoint(centerX, centerY);
     el.style.pointerEvents = '';
@@ -242,4 +240,5 @@ document.querySelectorAll('.topico').forEach(botao => {
     
 
 </body>
+
 </html>
